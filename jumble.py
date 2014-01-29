@@ -4,8 +4,8 @@ import sys
 
 # Script accepts one argument that is a string of letters. It will
 # output a list of words that can be generated from those letters.
-# The original input will not be included in the output, even the case
-# that it is a valid word. Ispell word lists are used to test if a
+# The original input will not be included in the output, even in the
+# case that it is a valid word. Ispell word lists are used to test if a
 # string is a word.
 
 # The jumble I played in college required that all letters be used
@@ -15,8 +15,8 @@ import sys
 useAllLetters = False
 
 # Grab the jumbled argument. Capping the length for performace reasons
-# (recursive approach will eat all your resources.) You can up the
-# limit by 1 if you want to wait, but I wouldn't up it by 2 without
+# (recursive approach will eat all your resources.) You can raise the
+# limit by 1 if you want to wait, but I wouldn't raise it by 2 without
 # a more efficient algorithm.
 if len(sys.argv) != 2:
     print "requires exactly one argument"
